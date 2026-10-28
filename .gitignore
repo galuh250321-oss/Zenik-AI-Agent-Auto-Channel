@@ -1,0 +1,35 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*client_secret*.json
+*credentials*.json
+oauth_tokens/
+secrets/
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+# Frontend / Tauri
+node_modules/
+apps/desktop/dist/
+apps/desktop/src-tauri/target/
+# Output / data
+data/
+outputs/
+artifacts/
+renders/
+*.mp4
+*.mov
+*.wav
+*.blend1
+# Operating systems
+.DS_Store
+Thumbs.db
