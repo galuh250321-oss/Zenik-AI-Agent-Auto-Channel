@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Only base Tauri core capability; no filesystem, shell or external URL grants.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}
